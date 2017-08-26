@@ -2,4 +2,4 @@
 
 pure CSS illustration
 
-![css cat](css-cat.jpg)
+![css cat](css-cat.png)
