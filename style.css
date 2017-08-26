@@ -169,7 +169,7 @@ main > div {
 }
 
 #head-spot2 {
-	top: 67px;
+	top: 66px;
 	left: 180px;
 	transform: rotate(7deg);
 }
@@ -182,12 +182,12 @@ main > div {
 }
 
 #body-spot1 {
-	top: 300px;
+	top: 285px;
 	left: 302px;
 }
 
 #body-spot2 {
-	top: 360px;
+	top: 345px;
 	left: 302px;
 }
 
@@ -331,7 +331,7 @@ main > div {
 	border: solid black 7px;
 	border-radius: 25%;
 	height: 20px;
-	left: 8px;
+	left: 7px;
 	top: 320px;
 	transform: rotate(20deg);
 	width: 185px;
