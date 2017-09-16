@@ -1,14 +1,24 @@
+#button {
+	background-color: #9efdff;
+	border: solid 3px #00fbff;
+	border-radius: 10px;
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 800;
+	height: 40px;
+	padding: 5px 0 0 7px;
+	width: 120px;
+}
+
 main {
 	position: relative;
 	left: 300px;
 	top: 100px;
 }
 
-main > div {
+.abso {
 	position: absolute;
 }
-
-
 
 #left-ear-outline, #left-ear, #right-ear-outline, #right-ear {
 	border-radius: 90% 0 0 0;
