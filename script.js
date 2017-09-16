@@ -21,6 +21,7 @@ function position(){
 		var abso = $(this);
 		setTimeout(function(){
 			abso.addClass("abso");
+			abso.css("left", "-=400px")
 		}, i*300)
 	})
 }
