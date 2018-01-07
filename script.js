@@ -1,12 +1,14 @@
-// vanilla javascript, without the delay
+//vanilla javascript
+//have to use "let" instead of "var" in the for loop because after 300ms, will have gone through entire loop already and var value keeps getting updated
+
 
 // const abs = document.getElementsByTagName("DIV");
 
 // const button = document.getElementById("button");
 
 // function position() {
-// 	for(var i=0; i<abs.length; i++){
-// 		abs[i].classList.add("abso");
+// 	for(let i=0; i<abs.length; i++){
+// 		setTimeout(function(){abs[i].classList.add("abso")}, i*300);
 // 	}
 // }
 
@@ -21,7 +23,7 @@ function position(){
 		var abso = $(this);
 		setTimeout(function(){
 			abso.addClass("abso");
-			abso.css("left", "-=400px")
+			abso.css("left", "-=600px")
 		}, i*300)
 	})
 }
