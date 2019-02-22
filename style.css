@@ -3,7 +3,7 @@
 	border: solid 7px black;
 	border-radius: 10px;
 	box-sizing: border-box;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 48px;
 	font-weight: 800;
 	height: 160px;
@@ -12,6 +12,10 @@
 	position: absolute;
 	text-align: center;
 	width: 240px;
+}
+
+#button:hover {
+	cursor: pointer;
 }
 
 main {
